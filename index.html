@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKIT SPAship Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&family=Red+Hat+Text:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <cpx-user></cpx-user>
+    <a cpx-login href="dashboard.html">Log in</a></cpx-login>
+    <cpx-keycloak url="https://sso.stage.redhat.com/auth" realm="redhat-external" client-id="rhd-web"></cpx-keycloak>
+    <script type="module" src="cpx-user.js"></script>
+    <script src="https://sso.stage.redhat.com/auth/js/keycloak.js"></script>
+    <script type="module" src="cpx-keycloak.js"></script>
+    <script>
+        
+
+
+    </script>
+</body>
+</html>
