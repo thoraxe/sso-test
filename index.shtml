@@ -9,7 +9,7 @@
 <body>
     <cpx-user></cpx-user>
     <a cpx-login href="dashboard.html">Log in</a></cpx-login>
-    <cpx-keycloak url="https://<!--#echo var="AUTH_HOST" -->/auth" realm="redhat-external" client-id="rhd-web"></cpx-keycloak>
+    <cpx-keycloak url="https://<!--#echo var="DATE_LOCAL" -->/auth" realm="redhat-external" client-id="rhd-web"></cpx-keycloak>
     <script type="module" src="cpx-user.js"></script>
     <script src="https://sso.stage.redhat.com/auth/js/keycloak.js"></script>
     <script type="module" src="cpx-keycloak.js"></script>
